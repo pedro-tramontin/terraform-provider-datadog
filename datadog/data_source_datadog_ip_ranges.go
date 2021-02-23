@@ -4,7 +4,7 @@ import (
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
 )
 
-func dataSourceDatadogIpRanges() *schema.Resource {
+func dataSourceDatadogIPRanges() *schema.Resource {
 	return &schema.Resource{
 		Description: "Use this data source to retrieve information about Datadog's IP addresses.",
 		Read:        dataSourceDatadogIPRangesRead,
